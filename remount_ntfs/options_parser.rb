@@ -61,7 +61,7 @@ module RemountNTFS
 
             opt_parser.parse! ARGV
             ARGS.target = ARGV[0] unless ARGV.empty?
-            ARGS.guid_mode = true if ARGS.untouched
+            # ARGS.guid_mode = true if ARGS.untouched
         end
 
         def options
