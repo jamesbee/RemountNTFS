@@ -4,6 +4,8 @@
 *.rbc
 .bundle
 .config
+*_example.rb
+*_test_it.rb
 coverage
 InstalledFiles
 lib/bundler/man
